@@ -20,7 +20,7 @@ const Cards = ({ title, text, image, button}) => {
 
 const CardRow = () => {
   return (
-    <div className="d-flex flex-wrap justify-content-start">
+    <div className="d-flex flex-wrap justify-content-center">
       <Cards
         title="Card Title"
         text="This is the first card."
