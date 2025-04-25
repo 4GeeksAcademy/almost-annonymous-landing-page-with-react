@@ -8,11 +8,18 @@ import "bootstrap"
 // index.css'
 import '../styles/index.css'
 
-// components
-import Home from './components/Home';
+// component
+import Navbar from './components/Navbar';
+import HeroImage from './components/HeroImage';
+import Cards from './components/Cards';
+import CardRow from './components/Cards';
+import Footer from './components/Footer';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <Navbar />
+    <HeroImage />
+    <CardRow /> 
+    <Footer />
   </React.StrictMode>,
 )
